@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    width: 100%;
+    justify-items: center;
+}
+
+.side-bar{
+    border: 1px solid black;
+    width: 20%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 80%;
+}
+
+li{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 20px 0;
+    font-size: 20px;
+    background-color: brown;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
