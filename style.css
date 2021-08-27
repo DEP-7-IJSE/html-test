@@ -78,3 +78,11 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+.hovering-dev{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 250px 20%;
+}
